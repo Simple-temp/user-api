@@ -5,7 +5,7 @@ document.querySelector("#load-data").addEventListener("click",function(){
     const countNumber = parseFloat(countText);
     if(countText!=countNumber)
     {
-        alert("Number de madarboard");
+        alert("Only number");
     }
     fetch(`https://jsonplaceholder.typicode.com/users`)
     .then(response => response.json())
